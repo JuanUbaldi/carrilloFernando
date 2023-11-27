@@ -90,6 +90,9 @@
   justify-content: center;
   align-items: center;
 }
+.detailMotosTexto h3{
+  font-size: 24px;
+}
 /*------------------------------------- ESTILOS  HOGAR----------------------------- */
 
 .h3HogarTitulo {
@@ -271,14 +274,15 @@
   width: 45%;
 }
 
-.vidaIndividual .vidaIndividualText h2 {
-  text-align: start;
+.vidaIndividualText h2 {
+  text-align: center;
   color: #00ade6;
   margin-bottom: 20px;
+  font-size: 24px;
 }
 
-.vidaIndividual .vidaIndividualText p {
-  font-size: 25px;
+ .vidaIndividualText p {
+  font-size: 16px;
   color: #6c6c6c;
   font-family: Roboto;
   font-style: normal;
@@ -490,6 +494,10 @@
     justify-content: center;
     align-items: start;
   }
+  .detailMotosTexto h3 {
+    font-size: 24px;
+    text-align: center;
+  }
   /*---------------------------- RESPONSIVE HOGAR---------------------------------*/
   .hogarTotal {
     display: flex;
@@ -521,7 +529,7 @@
 
   /*---------------------------- RESPONSIVE RESPONSABILIDAD---------------------------------*/
   .responsabilidadTotal {
-   padding-left: 0px;
+    padding-left: 0px;
     display: flex;
     flex-direction: column-reverse;
     width: 100%;
@@ -529,24 +537,21 @@
   }
   .responsabilidadTexto {
     display: flex;
-   width: 100%;
-   margin-top: 50px;
+    width: 100%;
+    margin-top: 50px;
     flex-direction: column;
     align-items: start;
   }
-  .responsabilidadImg  {
-  
+  .responsabilidadImg {
     width: 100%;
     padding: 0px;
     object-fit: cover;
   }
   .responsabilidadImg img {
-  
     width: 100%;
-   
+
     object-fit: cover;
   }
-
 
   /*---------------------------- RESPONSIVE COBERTURA---------------------------------*/
   .coberturaTotal {

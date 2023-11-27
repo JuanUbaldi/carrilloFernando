@@ -1,6 +1,6 @@
 import { useState } from "react";
 import reactLogo from "./assets/react.svg";
-import DetailSeguros5 from "./components/DetailSeguros/DetailSeguros5";
+import DetailSeguros8 from "./components/DetailSeguros/DetailSeguros8";
 import "./App.css";
 
 function App() {
@@ -8,7 +8,7 @@ function App() {
 
   return (
     <>
-      <DetailSeguros5 />
+      <DetailSeguros8 />
     </>
   );
 }
