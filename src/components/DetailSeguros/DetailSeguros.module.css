@@ -90,7 +90,7 @@
   justify-content: center;
   align-items: center;
 }
-.detailMotosTexto h3{
+.detailMotosTexto h3 {
   font-size: 24px;
 }
 /*------------------------------------- ESTILOS  HOGAR----------------------------- */
@@ -281,7 +281,7 @@
   font-size: 24px;
 }
 
- .vidaIndividualText p {
+.vidaIndividualText p {
   font-size: 16px;
   color: #6c6c6c;
   font-family: Roboto;
@@ -414,7 +414,7 @@
 .seguroTecnicoTotal {
   display: flex;
   flex-direction: row;
-  align-items: center;
+  align-items: start;
   padding: 20px 60px;
 }
 .seguroTecnicoText {
@@ -438,6 +438,7 @@
 
 .seguroTecnicoImg {
   display: flex;
+  align-items: start;
   flex: 1;
 }
 
@@ -606,11 +607,11 @@
     width: 100%;
   }
   /*------------------------------- RESPONSIVE IDENTIDAD-------------------------------------*/
-  .roboContain{
+  .roboContain {
     display: flex;
     flex-direction: column;
   }
-  
+
   .caucionImg img {
     object-fit: cover;
   }
@@ -624,20 +625,24 @@
   .consorcioTotal {
     display: flex;
     flex-direction: column-reverse;
-    justify-content: center;
+
     align-items: start;
   }
   .consorcioText {
     display: flex;
-    flex: 1;
+
     flex-direction: column;
   }
   .consorcioImg {
     display: flex;
-    flex: 1;
   }
   /*------------------------------------- RESPONSIVE SALUD----------------------------- */
-
+  .saludContain {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 0px;
+  }
   .saludImg {
     width: 100%;
   }
@@ -649,16 +654,19 @@
     display: flex;
     flex-direction: column-reverse;
     justify-content: center;
-    align-items: start;
+    align-items: center;
+    padding: 0;
   }
   .seguroTecnicoText {
     display: flex;
     flex: 1;
     flex-direction: column;
+    padding: 30px;
   }
   .seguroTecnicoImg {
-    display: flex;
-    flex: 1;
+    width: 100%;
+    margin-left: 0px;
+    padding: 30px;
   }
   /*------------------------------------- RESPONSIVE VIAJES----------------------------- */
 
@@ -667,5 +675,8 @@
   }
   .viajes img {
     object-fit: cover;
+  }
+  .textViajesContain {
+    padding: 30px;
   }
 }
