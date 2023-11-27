@@ -158,7 +158,10 @@
 .responsabilidadTotal {
   width: 100%;
   display: flex;
+  flex-direction: row;
   justify-content: space-between;
+  align-items: center;
+  gap: 50px;
   padding: 20px 60px;
 }
 
@@ -173,8 +176,8 @@
 }
 
 .responsabilidadImg img {
-  width: 70%;
-  height: 100%;
+  width: 60%;
+  height: 40%;
   object-fit: cover; /* Puedes ajustar esto según tus necesidades: cover, contain, fill, etc. */
 }
 /*------------------------------------- ESTILOS  COBERTURA---------------------------- */
@@ -512,26 +515,39 @@
   }
   .comercioTexto {
     display: flex;
-   width: 70%;
+    width: 70%;
     flex-direction: column;
   }
- 
+
   /*---------------------------- RESPONSIVE RESPONSABILIDAD---------------------------------*/
   .responsabilidadTotal {
+   padding-left: 0px;
     display: flex;
     flex-direction: column-reverse;
-    justify-content: center;
+    width: 100%;
     align-items: start;
   }
   .responsabilidadTexto {
     display: flex;
-    flex: 1;
+   width: 100%;
+   margin-top: 50px;
     flex-direction: column;
+    align-items: start;
   }
-  .responsabilidadImg {
-    display: flex;
-    flex: 1;
+  .responsabilidadImg  {
+  
+    width: 100%;
+    padding: 0px;
+    object-fit: cover;
   }
+  .responsabilidadImg img {
+  
+    width: 100%;
+   
+    object-fit: cover;
+  }
+
+
   /*---------------------------- RESPONSIVE COBERTURA---------------------------------*/
   .coberturaTotal {
     display: flex;
